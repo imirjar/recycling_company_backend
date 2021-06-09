@@ -1,0 +1,132 @@
+{% load static %}
+{% block head %}
+{% endblock %}
+	<body>
+
+	    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+	        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+	        <div class="container">
+	            <div class="navbar-header">
+	                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="example">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar bar1"></span>
+	                    <span class="icon-bar bar2"></span>
+	                    <span class="icon-bar bar3"></span>
+	                </button>
+	                <a class="navbar-brand">
+	                    ООО «Втормет-Ресурс»
+	                </a>
+	            </div>
+
+	            <div class="collapse navbar-collapse">
+	                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+	                    <li>
+	                        <a href="{% url 'vtormet:post_list_url' %}">Главная</a>
+	                    </li>
+
+	                    <li>
+	                        <a href="{% url 'vtormet:recycling_url' %}"><i class="fa fa-recycle" aria-hidden="true"></i>&nbsp; Утилизация</a>
+	                    </li>
+	                    <li class="dropdown">
+	                        <a href="home.html#gaia" class="dropdown-toggle" data-toggle="dropdown">
+	                            <i class="fa fa-share-alt"></i> СВЯЗАТЬСЯ
+	                        </a>
+	                        <ul class="dropdown-menu dropdown-danger">
+	                            <li>
+	                                <a href="tel:+79370061568"><i class="fa fa-phone"></i> 89370061568</a>
+	                            </li>
+	                            <li>
+	                                <a href="skype:zadorov_a?chat"><i class="fa fa-skype"></i> SKYPE</a>
+	                            </li>
+	                            <li>
+	                                <a href="mailto:vtormet-resurs@mail.ru"><i class="fa fa-envelope"></i>vtormet-resurs@mail.ru</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <a href="{% url 'signin_url' %}"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp; Личный кабинет</a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	    </nav>
+
+
+{% block content %}
+{% endblock %}
+
+	    <footer class="footer footer-big footer-color-black" data-color="black">
+
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-3 col-md-offset-1 col-sm-3">
+	                    <div class="info">
+	                        <h5 class="title"> ПОДДЕРЖКА</h5>
+	                        <nav>
+	                            <ul>
+	                                <li>
+	                                    <a href="{% static 'docs/price.doc' %}" download>Прайс</a>
+	                                </li>
+	                                <!--<li>
+	                                    <a href="home.html#">Вакансии</a>
+	                                </li>-->
+	                                <li>
+	                                    <a href="{% static 'docs/lic.pdf' %}" download>Лицензия</a>
+	                                </li>
+	                            </ul>
+	                        </nav>
+	                    </div>
+	                </div>
+	                <div class="col-md-3 col-sm-3">
+	                    <div class="info">
+	                        <h5 class="title">НОВОСТИ</h5>
+	                        <nav>
+	                            <ul>
+	                                <li>
+	                                    <a>
+	                                        <i class="iconify" data-icon="fa-brands:twitter"></i> <b>Мы запустили сайт</b> Отлично, мы в сети! Теперь мы сможем чаще работать вместе.
+	                                    </a>
+	                                </li>
+	                                <li>
+	                                    <a>
+	                                        <i class="iconify" data-icon="fa-brands:twitter"></i> <b>Открыты вакансии</b> В связи с расширением штата, нам необходимы новые сотрудники.
+	                                    </a>
+	                                </li>
+	                            </ul>
+	                        </nav>
+	                    </div>
+	                </div>
+	     			<div class="col-md-2 col-md-offset-1 col-sm-3">
+	                    <div class="info">
+	                        <h5 class="title">СВЯЗАТЬСЯ</h5>
+	                        <nav>
+	                            <ul>
+	                                 <li>
+    	                                <a href="tel:+79370061568"><i class="fa fa-phone"></i> 89370061568</a>
+    	                            </li>
+    	                            <li>
+    	                                <a href="skype:zadorov_a?chat"><i class="fa fa-skype"></i> SKYPE</a>
+    	                            </li>
+    	                            <li>
+    	                                <a href="mailto:vtormet-resurs@mail.ru"><i class="fa fa-envelope"></i>vtormet-resurs@mail.ru</a>
+    	                            </li>
+	                            </ul>
+	                        </nav>
+	                    </div>
+	                </div>
+	            </div>
+	            <hr>
+		            <div class="copyright">
+		                 © <script> document.write(new Date().getFullYear()) </script> made by <a class="" href="https://www.redbeaver.ru/service/web/">reDBeaver</a>
+		            </div>
+	        	</hr>
+	        </div>
+	    </footer>
+	
+	</body>
+{% block script %}
+
+{% endblock %}
+
+</html>

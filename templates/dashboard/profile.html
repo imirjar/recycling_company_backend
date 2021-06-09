@@ -1,0 +1,104 @@
+{% extends 'dashboard/main.html' %}
+{% load static %}
+{% block content %}
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-5">
+            <div class="card card-user">
+              <div class="content">
+
+                  <img src="{% static 'dashboard/img/factory_short.jpg' %}" width="100%">                   
+
+              </div>
+              <hr>
+              <div class="text-center">
+                <div class="row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <h5>{{ acts.count }}<br><small>Все</small></h5>
+                  </div>
+                  <div class="col-md-4">
+                    <h5>{{ requisition_answer_actual.count }}<br><small>Активные</small></h5>
+                  </div>
+                  <div class="col-md-3">
+                    <h5>{{ requisition_answer_accepted.count }}<br><small>Завершенные</small></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h4 class="title text-center">Представитель {{performer.name}}</h4>
+              </div>
+              <div class="content">
+                <ul class="list-unstyled team-members">
+                  <li>
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <div class="avatar">
+                          <img src="{% static 'img/faces/man.png' %}" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                        </div>
+                      </div>
+                      <div class="col-xs-6">
+                        {{ user.last_name }} {{ user.first_name }}
+                        {{ performer.representative }}
+                        <br>{{ performer.phone }}<br>
+                        {{ user.email }}
+                      </div>
+
+                      
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="card">
+              <div class="header">
+                <h4 class="title">Все акты</h4>
+                <p class="category">Здесь вы можете посмотреть акты в работе и скачать исходные документы</p>
+              </div>
+              <div class="content table-responsive table-full-width">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th >Номер</th>
+                      <th>Город</th>
+                      <th>Вес</th>
+                      <th>Заказчик</th>
+                      <th>Документ</th>
+                      <th >Дать ответ</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% for i in acts %}
+                  {% if i.accepted %}
+                  {% else %}
+                  <tr>
+                    <td>№ {{ i.requisition.number }}<br>от {{ i.requisition.receive_date }}</td>
+                    <td>{{ i.requisition.city }}</td>
+                    <td class="text-left">Антены:  {{ i.requisition.antennas_weight }} кг<br>Телеком: {{ i.requisition.telekom_weight }} кг<br>АКБ:     {{ i.requisition.akb_weight }} кг<br>Железо:  {{ i.requisition.iron_weight }} кг<br>Кабель:  {{ i.requisition.cable_weight }} кг<br> 
+                    </td>
+                    <td>{{ i.initiator_name }}<br><br>{{ i.initiator_representative }}<br>{{ i.initiator_phone }}</td>
+                    <td><a class="btn btn-sm btn-info btn-icon" href="{{ i.requisition.document.url }}" download><i class="fa fa-file-text"></i></a></td>
+                    <td>
+                      {% if i.answer.id %}
+                        На модерации
+                      {% else %}
+                      <div class="col-xs-3 text-right">
+                        <a class="btn btn-sm btn-success btn-icon" href="{% url 'dashboard:create_answer' i.requisition.id %}"><i class="fa fa-pencil-square-o"></i></a>
+                      </div>
+                      {% endif %}
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+{% endblock %}     

@@ -1,0 +1,66 @@
+id,name,slug,image,category_id,opt,retail
+1,Детали позолоченные (таблетки),Detali_pozolochennye_(tabletki),https://lomkontakt.ru/UPLOAD/2020/07/20/1b086d6b-8e40-4c4a-8ec9-844a5e05cfaf_100_0.jpg,7,14500,10000
+2,Детали позолоченные (гвозди),Detali_pozolochennye_(gvozdi),https://lomkontakt.ru/UPLOAD/2020/07/20/92ecf43d-e94c-400c-9594-96ed26a19199_100_0.jpg,7,3900,3550
+3,Детали позолоченные (мелочь),Detali_pozolochennye_(meloch'),https://lomkontakt.ru/UPLOAD/2020/07/20/12b8a963-0ae7-4d7c-84e7-ccfc55cd73be_100_0.jpg,7,2150,1950
+4,Детали позолоченные (жуки),Detali_pozolochennye_(zhuki),https://lomkontakt.ru/UPLOAD/2020/07/20/14666dfa-62fe-493c-8959-c7e7f393cd52_100_0.jpg,7,1190,1080
+5,Детали позолоченные (крупняк),Detali_pozolochennye_(krupnjak),https://lomkontakt.ru/UPLOAD/2020/07/20/72b49a69-2fa5-4222-b18b-431b016af1d7_100_0.jpg,7,330,300
+6,Блоки gsm посеребренные,Bloki_gsm_poserebrennye,https://lomkontakt.ru/UPLOAD/2020/03/24/blok-858_100_0.jpg,8,200,170
+7,Крышки аллюминиевые от GSM блоков,Kryshki_alljuminievye_ot_GSM_blokov,https://lomkontakt.ru/UPLOAD/2020/03/24/plastiny_100_0.jpg,8,210,180
+8,Латунь посеребренная,Latun'_poserebrennaja,https://lomkontakt.ru/UPLOAD/2020/03/24/latun-poserebrennaya_100_0.jpg,8,500,300
+9,Железо посеребренное,Zhelezo_poserebrennoe,https://lomkontakt.ru/UPLOAD/2020/03/24/zhelezo-poserebrennoe_100_0.jpg,8,80,70
+10,Блоки посеребренные с краской (половинки),Bloki_poserebrennye_s_kraskoj_(polovinki),https://lomkontakt.ru/UPLOAD/2020/03/24/polovinki_100_0.jpg,8,120,110
+11,"Серебро Чашка от конденсаторов К52-2, корпус от К52-1 и т.п.","Serebro_Chashka_ot_kondensatorov_K52-2,_korpus_ot_K52-1_i_t.p.",https://lomkontakt.ru/UPLOAD/2018/06/08/img_0654_100_0.jpg,9,52963.86,49780.24
+12,Серебро контакты от реле,Serebro_kontakty_ot_rele,https://lomkontakt.ru/UPLOAD/2018/06/08/img_0640_100_0.jpg,9,51196.6,48383.6
+13,Серебро немагнитное 80%,Serebro_nemagnitnoe_80%,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0614_100_0.jpg,9,42688,39904
+14,Серебро магнитное 60%,Serebro_magnitnoe_60%,https://lomkontakt.ru/UPLOAD/2018/05/15/serebro-teh-magnitnoe_100_0.jpg,9,32364,29928
+15,Серебро контакты на подложке,Serebro_kontakty_na_podlozhke,https://lomkontakt.ru/UPLOAD/2018/06/08/img_0644_100_0.jpg,9,5510,5336
+16,Серебро на меди,Serebro_na_medi,https://lomkontakt.ru/UPLOAD/2018/06/08/img_0643_100_0.jpg,9,12673,12272.8
+17,Медицинская рентген пленка (б/у),Meditsinskaja_rentgen_plenka_(b/u),https://lomkontakt.ru/UPLOAD/2020/07/20/i_100_0.jpg,10,90,60
+18,Медицинская рентген пленка неэкспонированная (новая),Meditsinskaja_rentgen_plenka_neeksponirovannaja_(novaja),https://lomkontakt.ru/UPLOAD/2020/07/20/1501966166_rentgen-plenka_1_100_0.jpg,10,270,180
+19,Материнские платы до Рentium-4 (старые),Materinskie_platy_do_Rentium-4_(starye),https://lomkontakt.ru/UPLOAD/2020/05/21/img_0553_100_0.jpg,11,380,300
+20,Материнские платы после Рentium-4 (новые),Materinskie_platy_posle_Rentium-4_(novye),https://lomkontakt.ru/UPLOAD/2018/05/29/img_0554_100_0.jpg,11,260,220
+21,Платы от ноутбуков,Platy_ot_noutbukov,https://lomkontakt.ru/UPLOAD/2018/06/18/img_0712_100_0.jpg,11,380,300
+22,Серверные платы,Servernye_platy,https://lomkontakt.ru/UPLOAD/2018/06/05/img_0549_100_0.jpg,11,460,380
+23,"Платы сетевые, аудио, видео","Platy_setevye,_audio,_video",https://lomkontakt.ru/UPLOAD/2018/05/29/img_0630_100_0.jpg,11,380,320
+24,Платы от мониторов ЖК,Platy_ot_monitorov_ZhK,https://lomkontakt.ru/UPLOAD/2020/05/21/img_0606_100_0.jpg,11,400,360
+25,Платы от жестких дисков HDD,Platy_ot_zhestkih_diskov_HDD,https://lomkontakt.ru/UPLOAD/2018/06/05/img_0574_100_0.jpg,11,1300,1000
+26,"Системные платы (МФУ, принтеры и др.)","Sistemnye_platy_(MFU,_printery_i_dr.)",https://lomkontakt.ru/UPLOAD/2018/05/29/img_0569_100_0.jpg,11,240,160
+27,Платы оперативной памяти с поз. контактами (Желтые),Platy_operativnoj_pamjati_s_poz._kontaktami_(Zheltye),https://lomkontakt.ru/UPLOAD/2018/06/05/img_0589_100_0.jpg,11,1700,1500
+28,Платы оперативной памяти с посеребр. контактами (Белые),Platy_operativnoj_pamjati_s_poserebr._kontaktami_(Belye),https://lomkontakt.ru/UPLOAD/2018/06/05/img_0591_100_0.jpg,11,750,650
+29,Платы от сотовых телефонов,Platy_ot_sotovyh_telefonov,https://lomkontakt.ru/UPLOAD/2018/05/29/img_0577_100_0.jpg,11,1700,1500
+30,Платы от сотовых телефонов современные,Platy_ot_sotovyh_telefonov_sovremennye,https://lomkontakt.ru/UPLOAD/2018/06/05/img_0579_100_0.jpg,11,850,710
+31,Платы GSM станций,Platy_GSM_stantsij,https://lomkontakt.ru/UPLOAD/2018/05/29/img_0555_100_0.jpg,11,1100,800
+32,Платы GSM позолоченные дорожки,_Platy_GSM_pozolochennye_dorozhki_,https://lomkontakt.ru/UPLOAD/2020/10/22/img_0559_100_0.jpg,11,810,670
+33,Платы от GSM серебр.,Platy_ot_GSM_serebr.,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0612_100_0.jpg,11,450,375
+34,Платы от импортной электроники,Platy_ot_importnoj_elektroniki,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0627-29_100_0.jpg,11,170,140
+35,Жесткие диски,Zhestkie_diski,https://lomkontakt.ru/UPLOAD/2018/06/05/img_0599-561_100_0.jpg,11,70,60
+36,Платы советские с деталями,Platy_sovetskie_s_detaljami,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0624_100_0.jpg,11,1250,110
+37,"Платы от мониторов, советские ТВ ( мониторные, мониторка)","Platy_ot_monitorov,_sovetskie_TV_(_monitornye,_monitorka)",https://lomkontakt.ru/UPLOAD/2018/06/05/img_0638_100_0.jpg,11,41,34
+38,Срезка с плат,Srezka_s_plat,https://lomkontakt.ru/UPLOAD/2020/10/22/img_0625_100_0.jpg,11,54,45
+39,Припой серебряный ПСР 60,Pripoj_serebrjanyj_PSR_60,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0620-888_100_0.jpg,12,27144,25404
+40,Припой серебряный ПСР 50,Pripoj_serebrjanyj_PSR_50,https://lomkontakt.ru/UPLOAD/2018/06/21/img_0620-820_100_0.jpg,12,22620,21170
+41,Припой серебряный ПСР 45,Pripoj_serebrjanyj_PSR_45,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0620-667_100_0.jpg,12,20358,19053
+42,Припой серебряный ПСР 40,Pripoj_serebrjanyj_PSR_40,https://lomkontakt.ru/UPLOAD/2018/06/21/img_0620_100_0.jpg,12,18096,16936
+43,Припой серебряный ПСР 30,Pripoj_serebrjanyj_PSR_30,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0620-388_100_0.jpg,12,13572,12702
+44,Припой серебряный ПСР-25,Pripoj_serebrjanyj_PSR-25,https://lomkontakt.ru/UPLOAD/2019/03/12/img_0620_100_0.jpg,12,11310,10585
+45,Припой серебряный ПСР 15,Pripoj_serebrjanyj_PSR_15,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0620_100_0.jpg,12,6786,6351
+46,Керамические процессоры,Keramicheskie_protsessory,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0585_100_0.jpg,13,10000,9000
+47,Процессор черный текстолитовый,Protsessor_chernyj_tekstolitovyj,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0595_100_0.jpg,13,3900,3300
+48,Процессор текстолитовый без металлической пластины,Protsessor_tekstolitovyj_bez_metallicheskoj_plastiny,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0596_100_0.jpg,13,3100,2600
+49,Процессор текстолитовый с металлической пластиной с ножками,Protsessor_tekstolitovyj_s_metallicheskoj_plastinoj_s_nozhkami,https://lomkontakt.ru/UPLOAD/2018/05/30/img_0610_100_0.jpg,13,750,650
+50,Процессор текстолитовый с металлической пластиной без ножек,Protsessor_tekstolitovyj_s_metallicheskoj_plastinoj_bez_nozhek,https://lomkontakt.ru/UPLOAD/2020/10/20/img_0610_100_0.jpg,13,650,600
+51,Лом кабеля АВКТ,Lom_kabelja_AVKT,https://lomkontakt.ru/UPLOAD/2018/06/14/img_0678_100_0.jpg,14,18.35,17.38
+52,Лом кабеля РК-ОТ,Lom_kabelja_RK-OT,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0668_100_0.jpg,14,247.74,0.31
+53,Лом кабеля БИН,Lom_kabelja_BIN,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0662_100_0.jpg,14,473.8,22.94
+54,Лом кабеля БИФ,Lom_kabelja_BIF,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0659_100_0.jpg,14,311.4,13.64
+55,Лом кабеля БПГРЛ,Lom_kabelja_BPGRL,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0664_100_0.jpg,14,281.76,18.15
+56,Лом кабеля КСФЭ,Lom_kabelja_KSFE,https://lomkontakt.ru/UPLOAD/2018/06/14/img_0676_100_0.jpg,14,337.79,28.3
+57,Лом кабеля КЭСФЭ,Lom_kabelja_KESFE,https://lomkontakt.ru/UPLOAD/2018/06/14/img_0658_100_0.jpg,14,3253.68,99.06
+58,Лом кабеля ЛФ,Lom_kabelja_LF,https://lomkontakt.ru/UPLOAD/2018/06/14/20180503_165921_100_0.jpg,14,563.53,13.2
+59,Лом кабеля МК,Lom_kabelja_MK,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0675_100_0.jpg,14,88.1,5.08
+60,Лом кабеля МП,Lom_kabelja_MP,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0674_100_0.jpg,14,62.93,6.01
+61,Лом кабеля МС,Lom_kabelja_MS,https://lomkontakt.ru/UPLOAD/2018/06/09/img_0666_100_0.jpg,14,88.1,4.18
+62,Лом кабеля МСЭО,Lom_kabelja_MSEO,https://lomkontakt.ru/UPLOAD/2018/06/13/img_0671_100_0.jpg,14,155.5,48.8
+63,Лом кабеля ПТЛ,Lom_kabelja_PTL,https://lomkontakt.ru/UPLOAD/2018/06/13/img_0677_100_0.jpg,14,750.29,20.3
+64,Сотовые телефоны кнопочные (старые),Sotovye_telefony_knopochnye_(starye),https://lomkontakt.ru/UPLOAD/2018/05/30/img_0586-74_100_0.jpg,15,120,90
+65,Сотовые телефоны с сенсорным экраном (современные),Sotovye_telefony_s_sensornym_ekranom_(sovremennye),https://lomkontakt.ru/UPLOAD/2018/06/08/img_0656_100_0.jpg,15,50,50
