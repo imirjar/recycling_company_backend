@@ -1,1 +1,0 @@
-SELECT stock.id, shop.name, mark.name FROM STOCK JOIN shop, mark on stock.markID = mark.id AND stock.shopID = shop.id; 

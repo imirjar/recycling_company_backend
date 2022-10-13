@@ -7,7 +7,7 @@ from django.core.paginator import Paginator
 from django.shortcuts import redirect
 from django.db.models import Q
 
-# Create your views here.
+
 def post_list(request):
     cvetmet = Cvetmet.objects.all()
     raddet_category = Raddet_category.objects.all()
@@ -27,8 +27,6 @@ def raddet_list(request, raddet_category_slug = None):
                                                         }
                   )
 
-
-
 class create_letter(View):
     def post(self, request):
         letter = Letter()
@@ -41,6 +39,7 @@ class create_letter(View):
 
 
 class delete_letter(LoginRequiredMixin, View):
+
     def get(self, request, id):
         try:
             letter = Letter.objects.get(id=id)
@@ -88,10 +87,10 @@ def recycling(request):
     }
 
     return render(request,'vtormetresurs/recycling/recycling.html', context=context)
-    
+
+
 def robots(request):
     return render(request, 'robots.txt')
-
 
 def sitemap(request):
     return render(request, 'sitemap.xml')

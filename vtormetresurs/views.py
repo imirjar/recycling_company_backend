@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponseRedirect, HttpResponseNotFound
-from django.shortcuts import render
+from django.http import HttpResponseRedirect, HttpResponseNotFound, HttpResponse
 from django.views.generic import View
 from django.contrib.auth import authenticate, login
 from .forms import LoginForm
@@ -20,11 +19,9 @@ class Signin(View):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return HttpResponseRedirect('/dashboard')
+                    return HttpResponseRedirect('/performer_spa')
                 else:
                     return HttpResponse('Disabled account')
             else:
                 return HttpResponse('Invalid login')
-
-
 
