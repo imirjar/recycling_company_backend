@@ -4,7 +4,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-s@waq8r^0ws8j#7)h!gp)^b8@ed6wd+(cq2h3c+x$n+5k^qyt'
 DEBUG = True
-ALLOWED_HOSTS = ['*','www.vtormet-resurs.ru', 'vtormet-resurs.ru', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 INSTALLED_APPS = [
@@ -125,8 +125,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 2525
-EMAIL_HOST_USER = "alexander@vtormet-resurs.ru"
-EMAIL_HOST_PASSWORD = "jmblh210868"
+EMAIL_HOST_USER = "EMAIL"
+EMAIL_HOST_PASSWORD = "PASSWORD"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
